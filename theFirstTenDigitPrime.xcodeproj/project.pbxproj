@@ -14,8 +14,8 @@
 		988A1664252603ED00C1EAEE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 7;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		988A1666252603ED00C1EAEE /* theFirstTenDigitPrime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = theFirstTenDigitPrime; sourceTree = BUILT_PRODUCTS_DIR; };
 		988A1669252603ED00C1EAEE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9894A41125260C99008BE797 /* e2mil.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = e2mil.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		988A165D252603ED00C1EAEE = {
 			isa = PBXGroup;
 			children = (
+				9894A41225260C9B008BE797 /* resources */,
 				988A1668252603ED00C1EAEE /* theFirstTenDigitPrime */,
 				988A1667252603ED00C1EAEE /* Products */,
 			);
@@ -60,6 +62,14 @@
 				988A1669252603ED00C1EAEE /* main.cpp */,
 			);
 			path = theFirstTenDigitPrime;
+			sourceTree = "<group>";
+		};
+		9894A41225260C9B008BE797 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9894A41125260C99008BE797 /* e2mil.txt */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
